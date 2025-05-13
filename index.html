@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twoje Imię - Tworzenie Stron WWW</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Twoje Imię i Nazwisko</h1>
+            <p>Freelancer | Tworzenie Stron WWW</p>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>O mnie</h2>
+            <img src="img/profile.jpg" alt="Twoje zdjęcie" class="profile-img">
+            <p>Cześć! Jestem freelancerem specjalizującym się w tworzeniu prostych, nowoczesnych stron internetowych. Pomogę Ci wyróżnić się w sieci!</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Usługi</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Strony Wizytówki</h3>
+                    <p>Profesjonalne strony dla małych firm.</p>
+                </div>
+                <div class="service">
+                    <h3>Landing Pages</h3>
+                    <p>Strony jednorazowe pod kampanie reklamowe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <form action="https://formsubmit.co/twoj@email.com" method="POST">
+                <input type="text" name="name" placeholder="Twoje imię" required>
+                <input type="email" name="email" placeholder="Twój email" required>
+                <textarea name="message" placeholder="Twoja wiadomość..." required></textarea>
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Twoje Imię. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+</body>
+</html>
